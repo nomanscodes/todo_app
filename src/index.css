@@ -1,0 +1,156 @@
+
+
+body {
+  margin: 0;
+  padding:0;
+  background-color: #131a22;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.contentContainer{
+  width: fit-content;
+  margin: auto;
+  padding: 40px;
+  background-color:#292b2e ;
+  border-radius: 3px;
+}
+
+.inputWrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.labelWithInput{
+  display: flex ;
+  flex-direction: column;
+  gap: 7px;
+}
+.labelWithInput :nth-child(1){
+  font-size: 23px;
+  font-weight: 550;
+}
+.labelWithInput :nth-child(2){
+padding: 10px 6px;
+background-color: white;
+border: none;
+font-size: 15px;
+width: 300px;
+}
+
+
+button{
+font-size: 16px;
+padding: 10px 16px;
+border: none;
+cursor: pointer;
+}
+
+.addButton{
+  margin-top: 33px;
+  background: #348b38;
+}
+
+.hr{
+  background-color: rgb(105, 108, 110);
+  width:100%;
+  margin-top: 20px;
+  height: 1px;
+}
+.dubbleButton{
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+/* .dubbleButton :nth-child(2){
+font-size: 16px;
+background: #525151;
+color: white;
+padding: 10px 16px;
+border: none;
+cursor: pointer;
+} */
+
+.completedButton{
+font-size: 16px;
+color: white;
+padding: 10px 16px;
+border: none;
+cursor: pointer;
+}
+
+.active{
+  background: #348b38;
+}
+
+.deactive{
+  background: #525151;
+}
+
+.todoView{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  padding: 18px 16px ;
+  margin-top: 15px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px #3a3939;
+  background-color: #3a3a3a;
+}
+
+.viewContent{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title{
+color: #30aa36;
+font-size: 26px;
+font-weight: 700;
+}
+
+.description{
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(197, 199, 201);
+}
+
+.viewAction{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.delete{
+  cursor: pointer;
+}
+.tik{
+  cursor: pointer;
+}
+
+.delete :hover{
+  color: brown;
+}
+
+.hideen_{
+  display:none;
+}
+.block_{
+  display: block;
+}
+
+.message{
+  color: azure;
+}
